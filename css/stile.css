@@ -507,26 +507,47 @@ img {
 }
 
 
+
+
+
+
 .accommodation {
+  padding: 24px;
 }
 
 .accommodation-title {
+  margin-bottom: 24px;
 }
 
 .accommodation-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
 }
 
 .accommondation-item {
+  min-height: 440px;
+  max-width: 374px;
+  background-color: var(--white-color);
+  border-radius: 15px;
 }
 .accommodation-article {
 }
-.accommodation-img {
+.accommodation-article-img{
+  background-image: url(/Laggona1/img/acc/41.jpg);
+  width: 440px;
+  height: 373px;
 }
+
 .accomondation-article-content {
+  margin: 36px 0 0 45px;
+  line-height: 150%;
 }
 .accomondation-price {
 }
 .accomondation-text {
+  
 }
 .price {
 }
@@ -537,4 +558,5 @@ img {
 .accommodation-location {
 }
 .accommodation-btn {
+  
 }
