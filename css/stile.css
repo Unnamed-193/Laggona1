@@ -246,7 +246,7 @@ img {
 }
 
 .artical-bg-left-1 {
-  background-image: var(--gradient), url("../img/krit.jpg");
+  background-image: var(--gradient), url("../img/Rectangle 14.jpg");
 }
 
 .special-artical-title {
@@ -316,7 +316,7 @@ img {
 }
 
 .artical-bg-left-2 {
-  background-image: var(--gradient), url("../img/mal.jpg");
+  background-image: var(--gradient), url("../img/Rectangle 15.jpg");
 }
 
 .artical-bg-right {
@@ -512,51 +512,87 @@ img {
 
 
 .accommodation {
-  padding: 24px;
+  padding: 35px 0;
 }
 
 .accommodation-title {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .accommodation-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 24px;
   
 }
 
 .accommondation-item {
   min-height: 440px;
-  max-width: 374px;
+  width: 374px;
   background-color: var(--white-color);
   border-radius: 15px;
+
+}
+
+.accommodation-img{
+  border-radius: 15px 15px 0 0;
 }
 .accommodation-article {
 }
-.accommodation-article-img{
-  background-image: url(/Laggona1/img/acc/41.jpg);
-  width: 440px;
-  height: 373px;
-}
 
 .accomondation-article-content {
-  margin: 36px 0 0 45px;
-  line-height: 150%;
+  padding: 32px 45px 45px 45px;
 }
 .accomondation-price {
+  margin-bottom: 16px;
+  margin-right: 45px;
+  display: inline-block;
 }
 .accomondation-text {
-  
+  color: var(--light-grey);
 }
 .price {
+    font-size: 20px;
+    margin-right: 4px;
 }
 .accommodation-stars {
+  display: inline-block;
 }
 .accommodation-article-title {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
 }
 .accommodation-location {
+  margin-bottom: 20px;
+  color: var(--light-grey);
 }
-.accommodation-btn {
-  
+
+.accommodation-item-lost {
+  position: relative;
+  display: flex;
+  align-items:  flex-end;
+  padding-left: 54px;
+  padding-bottom: 27px;
+  background-image:linear-gradient(to top, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url('../img/acc/41.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+.accommodation-item-link::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+right: 0;
+bottom: 0;
+}
+.accommondation-item-link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 200%; 
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  }
