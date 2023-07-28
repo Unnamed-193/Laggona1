@@ -619,26 +619,36 @@ img {
 .accommondation-item-link:focus-visible::before {
   opacity: 1;
 }
-
-.accommondation-item-link:active{
-  color: var(--orange);
+.accommondation-item-link:hover svg{
+  transform: translateX(10px);
 }
 
-.accommondation-item-link:active path{
-  stroke: var(--orange);
-  transform: translateX(5px);
+.accommondation-item-link:hover path{
+  stroke: var(--light-orange-color);
 }
 
 .accommondation-item-link:hover {
   color: var(--orange-color);
 }
 
-.accommondation-item-link:active path{
-  stroke: var(--light-orange-color);
-  transform: translateX(5px);
+.accommondation-item-link:active{
+  color: var(--orange);
 }
 
-.accommondation-item-link:hover path{
+.accommondation-item-link:active svg{
+  stroke: var(--orange);
+  transform: translateX(10px);
+}
+
+.accommondation-item-link:active path{
+  stroke: var(--orange);
+}
+
+.accommondation-item-link:active svg{
   stroke: var(--light-orange-color);
-  transform: translateX(5px);
+  transform: translateX(10px);
+}
+
+.accommondation-item-link:active path{
+  stroke: var(--light-orange-color);
 }
