@@ -444,6 +444,51 @@
                 </ul>
             </div>
         </section>
+        <section class="tour">
+            <div class="container">
+                <div class="tour-content">
+                        <h2 class="tour-title site-title"> Хочу тур </h2>
+                        <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="tour-form">
+                            <label for="city" class="form-lable">
+                                <span class="form-title"> Город вылета</span>
+                                <select name="city" id="city" class="form-select">
+                                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                                </select>
+
+                            </label>
+                            <label for="country" class="form-lable">
+                                <span class="form-title"> Страна</span>
+                                <select name="country" id="country" class="form-select">
+                                    <option value="Австралия">Австралия</option>
+                                    <option value="Австралия">Австралия</option>
+                                    <option value="Австралия">Австралия</option>
+                                    <option value="Австралия">Австралия</option>
+                                </select>
+                                
+                            </label>
+                            <label for="date" class="form-lable">
+                               Дата прибытия
+                               <input name="date" type="date" class="input" id="date" value="2021-02-18">
+                             
+                            </label>
+                        <label for="day" class="form-lable">
+                           Ночей 
+                           <input name="day" type="number" class="input input-border" id="day" placeholder="6">
+                         
+                        </label>
+                        <label for="tourist" class="form-lable">
+                            Туристы
+                            <input name="tourist" type="number" class="input input-border" id="tourist" placeholder="2" required>
+                          
+                         </label>
+                         <button class="form-button site-bt">Найти</button>
+                        </form>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
