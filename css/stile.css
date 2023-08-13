@@ -672,31 +672,33 @@ img {
   display: flex;
   
 }
-.form-lable {
+.form-lable{
   display: flex;
   flex-direction: column;
   font-size: 12px;
   margin-right: 41px;
 }
 
-.form-lable select{
-   border: none;
-   outline: none;
-}
 
-.form-lable:focus select{
+.form-select:focus {
   outline: 1px solid var(--orange-color);
 }
 
 .form-select {
  width: 169px;
  font-size: 16px;
+ border: none;
+ outline: none;
 }
 .input {
   width: 121px;
   font-size: 16px;
   border : none;
    outline: none;
+}
+
+.input-border{
+  border-bottom: 1px solid var(--grey);
 }
 
 .input:focus{
@@ -706,4 +708,117 @@ img {
 .form-button {
   width: 108px;
   padding: 13px 30px;
+}
+
+
+
+
+
+
+.contacts {
+  padding: 35px 0 40px;
+}
+
+.contacts-title {
+  margin-bottom: 20px;
+}
+.contacts-content {
+  background-image: url('../img/contacts-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 653px 88%;
+  background-position: 91% center;
+  border-radius: 15px;
+  padding: 45px;
+  background-color: var(--white-color);
+}
+.contacts-list {
+  max-width: 380px;
+}
+
+.contacts-item {
+  line-height: 150%;
+  border-bottom: 1px solid var(--grey);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding-bottom: 23px;
+}
+.contacts-item:last-child{
+  margin-bottom: 45px;
+
+}
+.item-title {
+  font-weight: 700;
+  font-size: 20px;
+
+}
+.item-wrapper {
+  width: 233px;
+  text-align: start;
+}
+ 
+
+.item-linke {
+  display: block;
+  color: var(--orange-color);
+}
+
+.item-text-gray {
+  display: block;
+  color: var(--light-grey);
+}
+.contacts-button {
+  padding: 30px;
+}
+
+
+
+.footer {
+  padding: 35px 0 40px;
+}
+
+.footer-content {
+  background-color: var(--dark-color);
+  width: 1170px;
+  height: 341px;
+  border-radius: 15px;
+  background-image: url(../img/footer.svg);
+  background-repeat: no-repeat;
+  padding: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding-bottom: 23px;
+  background-position: top 112px left 739px;
+}
+.foother-copyright {
+  width: 302px;
+}
+.copyright-text {
+  margin-bottom: 37px;
+  color: var(--white-color);
+  line-height: 190%;
+}
+
+.footer-address {
+  
+}
+.footer-text {
+  margin-bottom: 15px;
+  color: var(--white-color);
+}
+.footer-phone {
+  text-align: start;
+  display: block;
+  margin-bottom: 15px;
+}
+.footer-email {
+  text-align: start;
+  display: block;
+}
+.social {
+}
+.social-link {
+  display: block;
+  padding-bottom: 20px;
 }
