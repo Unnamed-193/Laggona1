@@ -17,6 +17,21 @@ html {
     outline-offset 0.3s ease-in-out;
 }
 
+.site-link:focus{
+  color: var(--orange-color);
+  outline: 1px solid var(--orange-color);
+  outline-offset: 2px;
+}
+
+.site-link:hover{
+  color: var(--light-orange-color);
+}
+
+.site-link:active{
+  color: var(--orange);
+  outline: 0;
+}
+
 .site-title {
   font-weight: 400;
   font-size: 40px;
@@ -774,7 +789,7 @@ img {
 
 
 .footer {
-  padding: 35px 0 40px;
+  padding: 0 0 30px;
 }
 
 .footer-content {
@@ -820,5 +835,25 @@ img {
 }
 .social-link {
   display: block;
-  padding-bottom: 20px;
+}
+
+.social-link:not(:last-child){
+ margin-bottom: 20px;
+}
+
+.social-link path{
+    transition: all 0.3s ease;
+}
+
+.social-link:focus{
+  outline: none;
+}
+
+.social-link:focus-visible path, 
+.social-link:hover path{ 
+  fill: var(--orange-color);
+}
+
+.social-link:active path{
+ fill: var(--orange);
 }
